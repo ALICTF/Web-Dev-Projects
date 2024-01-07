@@ -1,4 +1,21 @@
 @import "_font";
 @import "_colors";
 
+.header-img{
+    width: 100%;
+    position: absolute;
+}
 
+.row-custom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.w-icon1{
+    width: 40px;
+    height: 35px;
+}
+.w-icon2{
+    width: 50px;
+    height: 35px;
+}
