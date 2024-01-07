@@ -31,4 +31,68 @@ body {
   height: 35px;
 }
 
+.bg-custom {
+  width: 100%;
+  height: 100px;
+  background: #F5F6F8;
+}
+
+.w-icon3 {
+  width: 40px;
+  height: 40px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.text-template {
+  color: hsl(201, 11%, 66%);
+}
+
+.text-template-h {
+  color: hsl(210, 10%, 33%);
+}
+
+.btn-template-b {
+  border: 1px solid hsl(233, 100%, 69%);
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 1px 3px 10px 1px hsl(233, 100%, 69%);
+  cursor: pointer;
+}
+
+button {
+  color: #eceef2;
+}
+
+.btn-template-c {
+  border: 1px solid hsl(171, 66%, 44%);
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 1px 3px 10px 1px hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+.btn-template-c:hover {
+  color: #ffffff;
+  background-color: hsl(170, 36%, 58%) !important;
+}
+
+.btn-template-b:hover {
+  color: #ffffff;
+  background-color: hsl(233, 93%, 71%) !important;
+}
+
+a li:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+footer a:hover img {
+  color: hsl(171, 66%, 44%) !important;
+}
+
 /*# sourceMappingURL=style.css.map */
