@@ -77,9 +77,12 @@ footer a:hover img{
 
 @media (max-width:1024px) {
     .w-50-custom{
-        width: 75%;
+        width: 100%;
     }
     .w-75-custom{
         width: 100%;
+    }
+    .row-custom{
+        flex-direction: column;
     }
 }
