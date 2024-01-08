@@ -95,4 +95,21 @@ footer a:hover img {
   color: hsl(171, 66%, 44%) !important;
 }
 
+.w-50-custom {
+  width: 50%;
+}
+
+.w-75-custom {
+  width: 75%;
+}
+
+@media (max-width: 1024px) {
+  .w-50-custom {
+    width: 75%;
+  }
+  .w-75-custom {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
