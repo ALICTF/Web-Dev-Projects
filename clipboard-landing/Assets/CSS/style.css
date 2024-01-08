@@ -91,10 +91,6 @@ a li:hover {
   color: hsl(171, 66%, 44%);
 }
 
-footer a:hover img {
-  color: hsl(171, 66%, 44%) !important;
-}
-
 .w-50-custom {
   width: 50%;
 }
@@ -112,6 +108,19 @@ footer a:hover img {
   }
   .row-custom {
     flex-direction: column;
+  }
+  .bg-custom {
+    height: 100%;
+  }
+  footer .container {
+    flex-direction: column !important;
+  }
+  footer .container .section1-footer {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  footer .container .section2-footer {
+    align-items: center;
   }
 }
 
