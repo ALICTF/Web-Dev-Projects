@@ -1,20 +1,24 @@
 @import "_font";
 @import "_colors";
 
-.bg-custom{
-    height: 100vh;
+.bg-custom {
     width: 100vh;
+    height: 100vh;
     background-color: $LightGray;
 }
-.box{
+
+.box {
     height: auto;
     width: 300px;
     background-color: $White;
 }
-p{
+
+p {
     color: $GrayishBlue;
 }
 
-@media (max-width:1024px) {
-
+@media (max-height:550px) {
+    .bg-custom {
+        height: 550px;
+    }
 }
