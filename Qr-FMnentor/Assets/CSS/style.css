@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "inter-r";
+  src: url(/Assets/Font/Inter-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "inter-b";
+  src: url(/Assets/Font/Inter-Bold.ttf) format("ttf");
+}
+body {
+  font-size: 15px;
+}
+
+.bg-custom {
+  height: 100vh;
+  width: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.box {
+  height: auto;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+/*# sourceMappingURL=style.css.map */
