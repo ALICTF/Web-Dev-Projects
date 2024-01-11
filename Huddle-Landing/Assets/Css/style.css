@@ -17,15 +17,11 @@ header {
 }
 
 .btn-rl {
-  background-color: white;
-  color: hsl(192, 100%, 9%);
-  text-decoration: none;
-  padding: 0.5rem 3rem;
-  border-radius: 50px;
-  cursor: pointer;
-  box-shadow: 1px 1px 5px 1px black;
-  font-family: "inter-r";
+  background-color: white !important;
+  color: hsl(192, 100%, 9%) !important;
+  box-shadow: 1px 1px 5px 1px rgb(220, 230, 244) !important;
   transition: 0.1s;
+  border: none !important;
 }
 
 .btn-rl:hover {
