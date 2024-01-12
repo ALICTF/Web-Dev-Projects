@@ -28,4 +28,9 @@ body {
   border: none !important;
 }
 
+.btn-color-background-header {
+  background: rgb(75, 142, 241) !important;
+  border: none !important;
+}
+
 /*# sourceMappingURL=style.css.map */
