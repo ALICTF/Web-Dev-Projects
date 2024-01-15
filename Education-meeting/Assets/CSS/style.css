@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "flaticon";
+  src: url(/Assets/Font/flaticon.woff) format("woff");
+}
+body {
+  font-family: "flaticon";
+  font-size: 18px;
+}
+
+.vid-pattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 43, 42, 0.6);
+}
+
+.head-pattern {
+  width: 100%;
+  height: 103px;
+  background-color: rgba(90, 93, 91, 0.6);
+}
+
+.nav-link {
+  font-weight: 500 !important;
+  color: #000 !important;
+  transition: 0.2s ease-in-out !important;
+}
+
+.nav-link:hover {
+  color: rgb(240, 162, 40) !important;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(240, 162, 40) !important;
+}
+
+.btn-gradiant-color {
+  background: rgb(88, 113, 237);
+  background: linear-gradient(90deg, rgb(88, 113, 237) 0%, rgb(44, 216, 252) 100%);
+  border: none !important;
+}
+
+.logo {
+  font-size: 30px !important;
+  font-weight: 700;
+}
+
+.btn-color-background-header {
+  background: rgb(75, 142, 241) !important;
+  border: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */
